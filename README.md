@@ -10,9 +10,9 @@ We must find the two unique structures with the minimal and maximal number of mo
 
 ### Input
 
-The first line of our input must contain three integers, d_x, d_y, and k, where d_x and d_y (1 \le d_x, d_y \le 10^3) are the maximum dimensions of the crystal structure, and k (1 \le k \le 10) is the number of times wind was blown over the crystal.
+The first line of our input must contain three integers, d_x, d_y, and k, where d_x and d_y (1 ≤ d_x, d_y ≤ 10^3) are the maximum dimensions of the crystal structure, and k (1 ≤ k ≤ 10) is the number of times wind was blown over the crystal.
 
-Each of the remaining k lines specifies the data for one wind. These lines each start with two integers w_x and w_y (-d_x \le w_x \le d_x and -d_y \le w_y \le d_y, but not both zero) denoting the direction of the wind. Then comes an integer b (0 \le b \le 10^5) giving the number of boundaries encountered by this wind. The line finishes with b distinct pairs of integers x, y (1 \le x \le d_x and 1 \le y \le d_y) listing each observed boundary.
+Each of the remaining k lines specifies the data for one wind. These lines each start with two integers w_x and w_y (-d_x ≤ w_x ≤ d_x and -d_y ≤ w_y ≤ d_y, but not both zero) denoting the direction of the wind. Then comes an integer b (0 ≤ b ≤ 10^5) giving the number of boundaries encountered by this wind. The line finishes with b distinct pairs of integers x, y (1 ≤ x ≤ d_x and 1 ≤ y ≤ d_y) listing each observed boundary.
 
 ### Output
 
